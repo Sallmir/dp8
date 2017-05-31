@@ -1,0 +1,22 @@
+uuid: 05fbeaef-4cfe-4516-a0c7-2087e8c5ce11
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_images
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.pdf_images.body
+field_name: body
+entity_type: block_content
+bundle: pdf_images
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

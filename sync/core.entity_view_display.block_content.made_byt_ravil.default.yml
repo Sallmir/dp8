@@ -1,0 +1,22 @@
+uuid: c46450a5-6019-4b46-a48c-6478af5b01f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.made_byt_ravil
+    - field.field.block_content.made_byt_ravil.body
+  module:
+    - text
+id: block_content.made_byt_ravil.default
+targetEntityType: block_content
+bundle: made_byt_ravil
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

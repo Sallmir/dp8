@@ -1,0 +1,38 @@
+uuid: 9e2c559c-85f8-4c03-aaf9-eb297791cf44
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pdf_images
+    - field.storage.block_content.field_pdf_images
+  module:
+    - image
+id: block_content.pdf_images.field_pdf_images
+field_name: field_pdf_images
+entity_type: block_content
+bundle: pdf_images
+label: 'PDF images'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: 'img text'
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

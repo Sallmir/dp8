@@ -1,0 +1,8 @@
+uuid: c97ca270-99b9-4959-b263-0ec735071207
+langcode: en
+status: true
+dependencies: {  }
+id: pdf_images
+label: 'PDF images'
+revision: 0
+description: ''

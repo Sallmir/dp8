@@ -1,0 +1,31 @@
+uuid: 407d6c86-d492-41ac-b3f3-4d92299932ab
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:made_byt_ravil:5e6ca344-163f-4f2a-8caa-d616e1c23f37'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: madebyravil
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:5e6ca344-163f-4f2a-8caa-d616e1c23f37'
+settings:
+  id: 'block_content:5e6ca344-163f-4f2a-8caa-d616e1c23f37'
+  label: 'Made by Ravil'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

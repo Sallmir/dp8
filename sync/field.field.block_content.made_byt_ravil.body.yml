@@ -1,0 +1,22 @@
+uuid: 0dca50b7-7132-43d0-8f77-ccf3a1cc4d5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.made_byt_ravil
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.made_byt_ravil.body
+field_name: body
+entity_type: block_content
+bundle: made_byt_ravil
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

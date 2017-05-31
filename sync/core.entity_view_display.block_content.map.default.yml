@@ -1,0 +1,36 @@
+uuid: 78e15260-9631-41a6-914a-0e90071f407c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.map
+    - field.field.block_content.map.body
+    - field.field.block_content.map.field_map
+  module:
+    - link
+    - text
+id: block_content.map.default
+targetEntityType: block_content
+bundle: map
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_map:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

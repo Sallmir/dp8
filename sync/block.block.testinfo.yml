@@ -1,0 +1,31 @@
+uuid: c09f3e7e-5955-4e2c-ad0e-a924f27bc4f5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:label:d71dafe9-e704-44c8-93f8-c594b17406d4'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: testinfo
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:d71dafe9-e704-44c8-93f8-c594b17406d4'
+settings:
+  id: 'block_content:d71dafe9-e704-44c8-93f8-c594b17406d4'
+  label: 'Test info'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

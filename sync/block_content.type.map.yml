@@ -1,0 +1,8 @@
+uuid: bba070f6-214b-4ce2-904d-b00d7455d390
+langcode: en
+status: true
+dependencies: {  }
+id: map
+label: Map
+revision: 0
+description: 'Map Lytsk'
