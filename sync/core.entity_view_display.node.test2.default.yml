@@ -1,0 +1,28 @@
+uuid: e59a931f-7610-4850-9ee1-5518248b5e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test2.body
+    - node.type.test2
+  module:
+    - text
+    - user
+id: node.test2.default
+targetEntityType: node
+bundle: test2
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

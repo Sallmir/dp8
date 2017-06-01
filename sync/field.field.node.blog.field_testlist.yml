@@ -1,0 +1,21 @@
+uuid: ace22757-ac98-4ea6-b145-e34bdc81eb22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testlist
+    - node.type.blog
+  module:
+    - options
+id: node.blog.field_testlist
+field_name: field_testlist
+entity_type: node
+bundle: blog
+label: testlist
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_float

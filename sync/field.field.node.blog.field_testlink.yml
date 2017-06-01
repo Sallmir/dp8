@@ -1,0 +1,28 @@
+uuid: 472498ed-08f6-4b13-8cc4-650ac79318a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testlink
+    - node.type.blog
+  module:
+    - link
+id: node.blog.field_testlink
+field_name: field_testlink
+entity_type: node
+bundle: blog
+label: testlink
+description: google
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'https://www.google.ru/'
+    title: google
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

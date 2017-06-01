@@ -1,0 +1,9 @@
+uuid: e4bcdde7-cc39-461b-911b-437afa4cb753
+langcode: en
+status: true
+dependencies: {  }
+name: CategoriesForTest
+vid: categoriesfortest
+description: ''
+hierarchy: 0
+weight: 0

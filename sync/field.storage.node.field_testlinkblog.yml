@@ -1,0 +1,20 @@
+uuid: 600bc753-218c-48de-851c-7e0ad8cc08a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_testlinkblog
+field_name: field_testlinkblog
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

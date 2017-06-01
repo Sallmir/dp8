@@ -1,0 +1,30 @@
+uuid: a9ae04cd-fe0e-4874-b221-5f5fb0508849
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_testlist
+field_name: field_testlist
+entity_type: node
+type: list_float
+settings:
+  allowed_values:
+    -
+      value: !!float 1
+      label: '1'
+    -
+      value: !!float 2
+      label: '2'
+    -
+      value: !!float 3
+      label: '3'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

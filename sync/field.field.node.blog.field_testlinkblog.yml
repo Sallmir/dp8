@@ -1,0 +1,28 @@
+uuid: 43920507-ab7d-458d-b9b5-5147ac4e50e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testlinkblog
+    - node.type.blog
+    - taxonomy.vocabulary.categoriesfortest
+id: node.blog.field_testlinkblog
+field_name: field_testlinkblog
+entity_type: node
+bundle: blog
+label: testlinkBlog
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoriesfortest: categoriesfortest
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
